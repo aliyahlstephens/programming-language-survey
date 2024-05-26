@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Programming Language Survey</title>
+</head>
+<body>
+    <!-- Phase 1: Creating the Form -->
+    <!-- Form starts here with the POST method to submit form data -->
+    <form method="post">
+        <!-- Fieldset groups related elements in a form -->
+        <fieldset>
+            <!-- Legend provides a caption for the fieldset -->
+            <legend>Add user</legend>
+
+            <!-- Phase 2: Basic Information -->
+            <!-- Input field for first name -->
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first_name" required><br>
+
+            <!-- Input field for last name -->
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last_name" required><br>
+
+            <!-- Input field for email address -->
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <!-- Phase 3: Drop Down Menu -->
+            <!-- Select element for user status with options -->
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="guest">Guest</option>
+            </select><br>
+
+            <!-- Phase 4: Radio Buttons -->
+            <!-- Paragraph tag for the question -->
+            <p>Choose your favorite programming language:</p>
+            <!-- Radio buttons for selecting favorite programming language -->
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+
+            <!-- Phase 5: Additional Information -->
+            <!-- Text area for additional comments -->
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+            <!-- Input field for current date -->
+            <label for="current-date">Current Date:</label>
+            <input type="date" id="current-date" name="current_date" required><br>
+
+            <!-- Phase 6: Submission -->
+            <!-- Checkboxes for newsletter and terms agreement -->
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Sign up for newsletter</label><br>
+
+            <input type="checkbox" id="terms" name="terms">
+            <label for="terms">Agree to terms and conditions</label><br>
+
+            <!-- Submit button to submit the form -->
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
