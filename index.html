@@ -3,6 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <title>Programming Language Survey</title>
+    <style>
+        body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #F5E9D0; /* Light brown background */
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFF8E7; /* Soft goldish tint */
+    border: 2px solid #DAA520; /* Goldish border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 24px;
+    color: #D2691E; /* Chocolate color for the legend */
+}
+
+label {
+    color: #8B4513; /* SaddleBrown color for text */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #DAA520; /* Goldish border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #DAA520; /* Goldish button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFD700; /* Brighter gold on hover */
+}
+
+/* Styling for radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #DAA520; /* Goldish accent for controls */
+}
+
+/* Cartoonish styling for radio buttons and checkboxes labels */
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    font-size: 18px;
+    color: #A0522D; /* Sienna color for a playful look */
+}
+
+/* Hover effect for labels */
+label:hover {
+    color: #FF8C00; /* Dark orange when hovering over labels */
+}
+
+/* Style adjustments for comments section */
+textarea {
+    height: 120px; /* Larger area for comments */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
+    </style>
 </head>
 <body>
     <!-- Phase 1: Creating the Form -->
